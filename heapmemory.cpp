@@ -3,10 +3,16 @@ using std::cin, std::cout, std::endl;
 
 
 int main(){
-   //int x = 20; // created in stack
-    //int *pointer = new int(50); //created in heap
-    int *array = new int[3]; //created in heap
+    int *array = new int[20];
+    cout << array <<endl;
+
+    delete []array; //delete the int[20] from the memory so that pointer can point to new memory address
+    array = new int[40];
+    cout << array << endl;
+
+
 }
+
 //notes: 
 // array will point to the memory address of the first array element
 //for(int x = 0 ; x < 3; x++ ){
