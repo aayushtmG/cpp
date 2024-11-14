@@ -1,4 +1,4 @@
-<div style="text-align:center;">------------14,Nov,2024------------</div>
+------------14,Nov,2024------------<br>
 - Memory addresses are shown in hexadecimal format mainly because hexadecimal is more compact, readable, and aligned with how computers process and store data.
 - 0x is just prefix for the indication that its a hexadecimal number actual,address starts after it.
 - Arrays are just pointer in c,c++ int A[5]; is basically a A named pointer pointing to the first element's memory address
