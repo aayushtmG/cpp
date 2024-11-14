@@ -2,8 +2,7 @@
 using std::cout , std::endl;
 
 int main(){
-     unsigned int number;    
-    std::cin >>  number;
-    cout << number <<endl;
-
+    int A[5]{1,2,3,4,5};
+    int num = 5;
 }
+
