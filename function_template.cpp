@@ -14,4 +14,5 @@ int main(){
     float c = 3.5;
     float d = 3.2;
     cout << max(c,d) << " is bigger" << endl;
+    return 0;
 }
