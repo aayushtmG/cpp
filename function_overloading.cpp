@@ -1,21 +1,26 @@
-// Example of method overloading
 #include <iostream>
-using std::cout, std::endl;
-
-int add(int a, int b){
-    return a+b;
+using  std::cout;
+int add(int x,  int y){
+    return x + y;
 }
-
-int add(int a, int b,int c){
-    return a+b+c;
+int add(int x, int y){
+    return x+y;
 }
+int max(int x, int y, int z){
+    if(x > y  && x > z){
+        return x;
+    }else if(y > x && y > z){
+        return y;
+    }else{
+        return z;
+    }
 
+}
 
 int main(){
-    int a = 20;
-    int b =30;
-    int c=50;
-    cout << "Add with two arguments: " << add(a,b) <<endl;
-    cout << "Add with three arguments: " << add(a,b,c) <<endl;
+    // int x, y;
+    
+    int cmax = add(3,6);
+    cout << cmax;
     return 0;
 }
