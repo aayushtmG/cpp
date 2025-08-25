@@ -2,17 +2,15 @@
 #include <iostream>
 using std::cout,std::endl;
 
-template <class T>
-T max(T a, T b){
-    return a>b ? a : b;
+template<class t>
+t add(t x, t y){
+    return x + y;
 }
 
 int main(){
-    int a = 20;
-    int b = 30;
-    cout << max(a,b) << " is bigger" << endl;
-    float c = 3.5;
-    float d = 3.2;
-    cout << max(c,d) << " is bigger" << endl;
-    return 0;
+    float fsum; int isum;
+    isum = add(2,5);
+    fsum = add(2.5f ,2.5f);
+    cout << fsum << endl << isum << endl;
+return 0;
 }
